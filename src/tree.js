@@ -4,8 +4,7 @@ var Tree = function(game, x, y) {
   this.center = { x: x, y: y };
 
   this.tree = new Image();
-  this.tree.src = 'tree.gif';
- 
+  this.tree.src = './img/tree.gif'; 
 };
 
 Tree.prototype = {

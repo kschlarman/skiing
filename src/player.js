@@ -4,11 +4,11 @@ var Player = function(game) {
   this.keyboarder = new Keyboarder();
 
   this.skierDown = new Image();
-  this.skierDown.src = 'skier_down.gif';
+  this.skierDown.src = './img/skier_down.gif';
   this.skierLeft = new Image();
-  this.skierLeft.src = 'skier_left.gif';
+  this.skierLeft.src = './img/skier_left.gif';
   this.skierRight = new Image();
-  this.skierRight.src = 'skier_right.gif';
+  this.skierRight.src = './img/skier_right.gif';
   this.skier = this.skierDown;
 
   this.sizeDown = { x: 35, y: 50 };
